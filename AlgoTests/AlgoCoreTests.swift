@@ -1,19 +1,14 @@
 //
-//  AlgoSpec.swift
+//  AlgoCoreTests.swift
 //  AlgoTests
 //
-//  Created by seongho.hong on 2021/03/24.
+//  Created by seongho.hong on 2021/03/25.
 //
 
 import XCTest
 @testable import Algo
 
-final class AlgoTests: XCTestCase {
-    
-    func test1543() {
-        let solution = A1543().solution(N: "ababababa", M: "aba")
-        XCTAssertEqual(solution, 2)
-    }
+final class AlgoCoreTests: XCTestCase {
     
     func testBFS() {
         let graph: [String: [String]] = [
