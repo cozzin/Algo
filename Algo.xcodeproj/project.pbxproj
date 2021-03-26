@@ -14,6 +14,7 @@
 		CE24E94E260C131D0023823F /* A1074.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24E947260C131D0023823F /* A1074.swift */; };
 		CE24E95A260C15590023823F /* AcmicpcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24E959260C15590023823F /* AcmicpcTests.swift */; };
 		CE24E95E260C15680023823F /* AlgoCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24E95D260C15680023823F /* AlgoCoreTests.swift */; };
+		CE378A33260E2B390080F94E /* A1904.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE378A32260E2B390080F94E /* A1904.swift */; };
 		CE5630C5260B0D090093B414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5630C4260B0D090093B414 /* AppDelegate.swift */; };
 		CE5630C7260B0D090093B414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5630C6260B0D090093B414 /* SceneDelegate.swift */; };
 		CE5630C9260B0D090093B414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5630C8260B0D090093B414 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		CE24E94A260C131D0023823F /* A2798.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A2798.swift; sourceTree = "<group>"; };
 		CE24E959260C15590023823F /* AcmicpcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcmicpcTests.swift; sourceTree = "<group>"; };
 		CE24E95D260C15680023823F /* AlgoCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoCoreTests.swift; sourceTree = "<group>"; };
+		CE378A32260E2B390080F94E /* A1904.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1904.swift; sourceTree = "<group>"; };
 		CE5630C1260B0D090093B414 /* Algo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5630C4260B0D090093B414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5630C6260B0D090093B414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				CE24E94A260C131D0023823F /* A2798.swift */,
 				CE24E948260C131D0023823F /* A2920.swift */,
 				CE5630FE260B0D260093B414 /* A1543.swift */,
+				CE378A32260E2B390080F94E /* A1904.swift */,
 			);
 			path = Acmicpc;
 			sourceTree = "<group>";
@@ -113,6 +116,13 @@
 				CEFBA569260CAD0000BD8843 /* DFS.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		CE378A31260E25D30080F94E /* Codility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Codility;
 			sourceTree = "<group>";
 		};
 		CE5630B8260B0D090093B414 = {
@@ -157,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				CE24E954260C137C0023823F /* Core */,
+				CE378A31260E25D30080F94E /* Codility */,
 				CE24E953260C13730023823F /* Acmicpc */,
 			);
 			path = Logic;
@@ -275,6 +286,7 @@
 				CE5630C5260B0D090093B414 /* AppDelegate.swift in Sources */,
 				CE5630FF260B0D260093B414 /* A1543.swift in Sources */,
 				CEFBA56A260CAD0000BD8843 /* DFS.swift in Sources */,
+				CE378A33260E2B390080F94E /* A1904.swift in Sources */,
 				CE24E94D260C131D0023823F /* A2750.swift in Sources */,
 				CE24E94C260C131D0023823F /* A2920.swift in Sources */,
 				CE5630C7260B0D090093B414 /* SceneDelegate.swift in Sources */,

@@ -15,4 +15,9 @@ final class AcmicpcTests: XCTestCase {
         XCTAssertEqual(solution, 2)
     }
     
+    func test1904() {
+        let solution = A1904().solution(n: 4)
+        XCTAssertEqual(solution, 5)
+   }
+    
 }

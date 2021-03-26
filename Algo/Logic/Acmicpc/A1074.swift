@@ -3,6 +3,8 @@
 //  CodingTest
 //
 //  Created by seongho.hong on 2021/03/23.
+//
+//  Z
 //  https://www.acmicpc.net/problem/1074
 
 import Foundation
@@ -26,6 +28,9 @@ final class A1074 {
     }
     
     private func solve(n: Int, x: Int, y: Int) {
+        // 재귀적으로 문제를 풀어야 함
+        // 반복되는 패턴이 있는지 확인하고
+        // 큰 범위 -> 작은 범위로 같은 함수를 재귀적으로 호출하도록 만들기
         if n == 2 {
             if x == targetX && y == targetY {
                 result = count

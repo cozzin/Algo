@@ -19,7 +19,6 @@ final class A1543 {
             for j in (0..<M.count) {
                 if N[i + j] != M[j] {
                     i += 1
-                    print("1: \(i)")
                     break
                 }
                 
@@ -27,8 +26,6 @@ final class A1543 {
                 if j == M.count - 1 {
                     i = i + j + 1
                     count += 1
-                    
-                    print("2: \(i)")
                 }
             }
         }
