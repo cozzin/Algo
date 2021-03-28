@@ -25,6 +25,9 @@
 		CE5630FF260B0D260093B414 /* A1543.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5630FE260B0D260093B414 /* A1543.swift */; };
 		CE56310B260B0DC20093B414 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = CE56310A260B0DC20093B414 /* Quick */; };
 		CE563111260B0DE50093B414 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = CE563110260B0DE50093B414 /* Nimble */; };
+		CED1CD432610D6FA00630185 /* L1TowSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1CD422610D6FA00630185 /* L1TowSum.swift */; };
+		CED1CD4F2610D73E00630185 /* LeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1CD4E2610D73E00630185 /* LeetCodeTests.swift */; };
+		CED1CD532610D79900630185 /* LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1CD522610D79900630185 /* LeetCode.swift */; };
 		CEFBA56A260CAD0000BD8843 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBA569260CAD0000BD8843 /* DFS.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		CE5630DA260B0D0C0093B414 /* AlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5630E0260B0D0C0093B414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5630FE260B0D260093B414 /* A1543.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1543.swift; sourceTree = "<group>"; };
+		CED1CD422610D6FA00630185 /* L1TowSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1TowSum.swift; sourceTree = "<group>"; };
+		CED1CD4E2610D73E00630185 /* LeetCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeTests.swift; sourceTree = "<group>"; };
+		CED1CD522610D79900630185 /* LeetCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode.swift; sourceTree = "<group>"; };
 		CEFBA569260CAD0000BD8843 /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +165,7 @@
 				CE5630E0260B0D0C0093B414 /* Info.plist */,
 				CE24E959260C15590023823F /* AcmicpcTests.swift */,
 				CE24E95D260C15680023823F /* AlgoCoreTests.swift */,
+				CED1CD4E2610D73E00630185 /* LeetCodeTests.swift */,
 			);
 			path = AlgoTests;
 			sourceTree = "<group>";
@@ -166,11 +173,21 @@
 		CE5630FA260B0D190093B414 /* Logic */ = {
 			isa = PBXGroup;
 			children = (
+				CED1CD412610D68C00630185 /* LeetCode */,
 				CE24E954260C137C0023823F /* Core */,
 				CE378A31260E25D30080F94E /* Codility */,
 				CE24E953260C13730023823F /* Acmicpc */,
 			);
 			path = Logic;
+			sourceTree = "<group>";
+		};
+		CED1CD412610D68C00630185 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				CED1CD522610D79900630185 /* LeetCode.swift */,
+				CED1CD422610D6FA00630185 /* L1TowSum.swift */,
+			);
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,11 +304,13 @@
 				CE5630FF260B0D260093B414 /* A1543.swift in Sources */,
 				CEFBA56A260CAD0000BD8843 /* DFS.swift in Sources */,
 				CE378A33260E2B390080F94E /* A1904.swift in Sources */,
+				CED1CD432610D6FA00630185 /* L1TowSum.swift in Sources */,
 				CE24E94D260C131D0023823F /* A2750.swift in Sources */,
 				CE24E94C260C131D0023823F /* A2920.swift in Sources */,
 				CE5630C7260B0D090093B414 /* SceneDelegate.swift in Sources */,
 				CE24E94E260C131D0023823F /* A1074.swift in Sources */,
 				CE24E94B260C131D0023823F /* A2798.swift in Sources */,
+				CED1CD532610D79900630185 /* LeetCode.swift in Sources */,
 				CE24E943260C01D60023823F /* BFS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +321,7 @@
 			files = (
 				CE24E95A260C15590023823F /* AcmicpcTests.swift in Sources */,
 				CE24E95E260C15680023823F /* AlgoCoreTests.swift in Sources */,
+				CED1CD4F2610D73E00630185 /* LeetCodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
